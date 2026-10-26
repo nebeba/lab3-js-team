@@ -21,7 +21,6 @@ tablica.push('nowy8', 'nowy9', 'nowy10', 'nowy11');
 console.log('Długość:', tablica.length);
 
 // Krok 4 – sprawdzenie dziury w tablicy
-tablica[20] = 'daleko';
 console.log('Długość:', tablica.length);
 console.log('Element pod indeksem 15:', tablica[15]);
 // Długość wynosi 21, a tablica[15] to undefined,
