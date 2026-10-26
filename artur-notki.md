@@ -8,3 +8,8 @@ c) Wypisala null
 a) Strona zaladowala sie w calosci
 b) Powitanie nie pojawilo sie
 c) element #quiz ma <div id="quiz">
+
+# Skrypty z async
+a) Strona zaladowala sie w calosci
+b) Powitanie nie pokazalo sie
+c) konsola wczytuje #quiz
