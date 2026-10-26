@@ -135,8 +135,9 @@
 
 				<div id="skrypty">
 					<h3>Zadanie 1 – ładowanie skryptów</h3>
-						<script async src="js/imie.js"></script>
-						<script async src="js/powitanie.js"></script>
+						<script defer src="js/imie.js"></script>
+						<script defer src="js/powitanie.js"></script>
+						<p>Defer wykonuje skrypty dopiero po sprasowaniu calego dokumentu, a document.write jest ignorowane. Async rownież ignoruje document.write, i nie daje gwarancji kolejnosci. Zwykly document.write jest zbyt czesto pomijany.</p>
 					</div>
 					<div id="tablice">
 					<h3>Zadania 2 i 3 – tablice</h3>
