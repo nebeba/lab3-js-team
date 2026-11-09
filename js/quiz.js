@@ -18,6 +18,8 @@ function startQuiz() {
       alert('Błąd. Prawidłowa odpowiedź to ' + question[1]);
     }
   }
+    document.getElementById('wynik').textContent =
+    'Wynik: ' + score + ' / ' + questions.length;
 }
 
 document.getElementById('startQuiz').addEventListener('click', startQuiz);
