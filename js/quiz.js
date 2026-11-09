@@ -10,14 +10,14 @@ function startQuiz() {
   for (let i = 0; i < questions.length; i++) {
     const question = questions[i];
     const answer = prompt(question[0], '');
+    const pustaOdpowiedz = answer === null || answer.trim() === '';
 
-    if (Number(answer) === question[1]) {
+    if (!pustaOdpowiedz && Number(answer) === question[1]) {
       alert('Prawidłowa odpowiedź!');
       score++;
     } else {
       alert('Błąd. Prawidłowa odpowiedź to ' + question[1]);
     }
-  }
     document.getElementById('wynik').textContent =
     'Wynik: ' + score + ' / ' + questions.length;
 }
